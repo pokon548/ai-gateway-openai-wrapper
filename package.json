@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest"
+    "upload": "wrangler deploy"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.1.0",
